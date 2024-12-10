@@ -26,7 +26,7 @@ VisualVista is a cutting-edge eCommerce platform featuring 3D product viewing ca
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/JASPAL70/3D-.git
+   git clone https://github.com/JASPAL70/3D-Visualvista.git
 2. start server =
    ./start-server.bat
 3. client run =
