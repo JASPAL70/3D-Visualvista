@@ -1,17 +1,9 @@
-# Node modules
-node_modules/
-
-# Build output
-build/
-
-# Temporary files
-*.tmp
-*.log
+# server run 
+./start-server.bat
 
 # Environment variables
 .env
 
-# Other
-.DS_Store
-*.bak
-*.old
+# client start
+npm start
+
