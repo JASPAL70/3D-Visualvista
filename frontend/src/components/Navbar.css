@@ -1,4 +1,4 @@
-bod,y .app {
+body, .app {
   padding-top: 80px; /* Adjust this value based on your navbar's height */
   margin: 0;
   font-family: Arial, sans-serif;
@@ -10,7 +10,8 @@ bod,y .app {
   width: 100%; /* Full width for the navbar */
   background-color: #666 !important; /* Updated background color */
   color: white !important;
-  padding: 10px 15px !important; /* Adjusted padding to reduce size */
+  height: 80px !important; /* Explicitly set the height */
+  padding: 20px !important; /* Adjusted padding for better height */
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
@@ -107,3 +108,4 @@ h2 {
   color: #333;
   font-weight: normal;
 }
+
