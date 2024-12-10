@@ -108,4 +108,4 @@ h2 {
   color: #333;
   font-weight: normal;
 }
-
+.cart-logo { width: 24px; /* Adjust size as needed */ height: 24px; margin-right: 8px; /* Space between image and text */ }
