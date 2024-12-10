@@ -1,0 +1,109 @@
+bod,y .app {
+  padding-top: 80px; /* Adjust this value based on your navbar's height */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%; /* Full width for the navbar */
+  background-color: #666 !important; /* Updated background color */
+  color: white !important;
+  padding: 10px 15px !important; /* Adjusted padding to reduce size */
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+  z-index: 1000 !important;
+  box-sizing: border-box; /* Ensure the width includes padding and border */
+}
+
+.navbar-brand h1 {
+  font-size: 1.5em !important; /* Reduced font size */
+  margin: 0 !important;
+}
+
+.navbar-links {
+  list-style: none !important;
+  display: flex !important;
+  gap: 10px !important; /* Reduced gap for compactness */
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.navbar-links li {
+  font-size: 0.9em !important; /* Reduced font size */
+  background-color: #444; /* Box background color */
+  padding: 8px 12px !important; /* Box padding */
+  border-radius: 5px !important; /* Rounded corners for the box */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s ease-in-out; /* Add smooth transition for transform */
+}
+
+.navbar-links li:active {
+  transform: scale(0.95); /* Slightly reduce size on active state */
+}
+
+.navbar-links a {
+  color: white !important;
+  text-decoration: none !important;
+  display: block; /* Make links block level to fill the box */
+}
+
+.navbar-links a:hover {
+  background-color: #555 !important; /* Darker background on hover */
+  border-radius: 5px !important; /* Ensure the hover effect maintains rounded corners */
+}
+
+form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  margin: 50px auto; /* Ensure distance from the navbar and centering */
+  font-family: Arial, sans-serif;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #007BFF;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:active {
+  background-color: #004080;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-weight: normal;
+}

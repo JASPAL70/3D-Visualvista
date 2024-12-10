@@ -1,0 +1,21 @@
+.cart {
+    padding: 2rem;
+  }
+  
+  .cart h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .cart ul li {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+  }
+  
