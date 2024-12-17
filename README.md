@@ -16,6 +16,7 @@ VisualVista is a cutting-edge eCommerce platform featuring 3D product viewing ca
 - React
 - React Router
 - three js
+- node.js
 - exprees js 
 - mongodb
 - Axios
